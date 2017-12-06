@@ -8,6 +8,12 @@ body {
     background: #fafafa;
 }
 
+#main {
+    height: 100%;
+    overflow: auto;
+}
+  
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
