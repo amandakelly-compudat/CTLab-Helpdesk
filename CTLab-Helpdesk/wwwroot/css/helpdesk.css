@@ -3,7 +3,6 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -144,7 +143,6 @@ i, span {
         background: #337ab7;
     }
 
-
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -161,7 +159,6 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
-
 
 ul ul a {
     font-size: 0.9em !important;
@@ -191,8 +188,6 @@ a.article, a.article:hover {
     color: #fff !important;
 }
 
-
-
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -201,7 +196,6 @@ a.article, a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
-
 
 /* ---------------------------------------------------
     MEDIAQUERIES

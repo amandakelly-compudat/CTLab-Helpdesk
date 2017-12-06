@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CTLab_Helpdesk.Controllers
+namespace CTLabHelpdesk.Controllers
 {
     public class HomeController : Controller
     {
