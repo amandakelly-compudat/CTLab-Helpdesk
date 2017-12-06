@@ -131,7 +131,7 @@ i, span {
 
     #sidebar ul li a {
         padding: 10px;
-        font-size: 1.1em;
+        font-size: 1.0em;
         display: block;
     }
 
@@ -159,7 +159,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     position: absolute;
     right: 20px;
     font-family: 'Glyphicons Halflings';
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 a[aria-expanded="true"]::before {

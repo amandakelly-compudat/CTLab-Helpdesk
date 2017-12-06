@@ -29,25 +29,18 @@
                 <strong>MT</strong>
             </div>
             <ul class="list-unstyled components">
-                <li class="active">
                 <li class="nav-item" is-active-route asp-controller="Home" asp-action="Index">
                     <a asp-controller="Home" asp-action="Index">
                         <i class="glyphicon glyphicon-home"></i>
                         Helpdesk Home
                     </a>
                 </li>
-                <li class="nav-item" is-active-route asp-controller="Home" asp-action="Tour">
-                    <a asp-controller="Home" asp-action="Tour">
-                        <i class="glyphicon glyphicon-plane"></i>
-                        Tour
-                    </a>
-                    </li>
-                    <li class="nav-item" is-active-route asp-controller="Home" asp-action="MainScreen">
+                <li class="nav-item" is-active-route asp-controller="Home" asp-action="MainScreen">
                     <a asp-controller="Home" asp-action="MainScreen">
                         <i class="glyphicon glyphicon-briefcase"></i>
                         Main Screen
                     </a>
-                    </li>
+                </li>
                 <li>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li><a href="#">Page 1</a></li>
@@ -57,20 +50,39 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="glyphicon glyphicon-link"></i>
-                        Portfolio
+                        <i class="glyphicon glyphicon-wrench"></i>
+                        Admin
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="glyphicon glyphicon-paperclip"></i>
-                        FAQ
+                        <i class="glyphicon glyphicon-user"></i>
+                        Member Maintenance
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="glyphicon glyphicon-send"></i>
-                        Contact
+                        <i class="glyphicon glyphicon-usd"></i>
+                        Annuity
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="glyphicon glyphicon-road"></i>
+                        Contractor Maintenance
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="glyphicon glyphicon-check"></i>
+                        Contractor Remittances
+                    </a>
+                </li>
+
+                <li class="nav-item" is-active-route asp-controller="Home" asp-action="Tour">
+                    <a asp-controller="Home" asp-action="Tour">
+                        <i class="glyphicon glyphicon-plane"></i>
+                        Tour - Coming Soon
                     </a>
                 </li>
             </ul>
