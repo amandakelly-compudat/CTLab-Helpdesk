@@ -9,7 +9,7 @@ namespace CTLabHelpdesk.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult MainScreen()
         {
             ViewData["Message"] = "Your application description page.";
 
