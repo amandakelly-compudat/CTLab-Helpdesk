@@ -1,2 +1,5 @@
 ﻿@using CTLab_Helpdesk
+@using CTLab_Helpdesk.TagHelpers
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration TelemetryConfiguration
+@addTagHelper *, CTLab_Helpdesk

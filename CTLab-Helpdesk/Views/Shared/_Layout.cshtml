@@ -30,15 +30,11 @@
             </div>
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
-                        <i class="glyphicon glyphicon-home"></i>
-                        Home
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li><a href="#">Home 1</a></li>
-                        <li><a href="#">Home 2</a></li>
-                        <li><a href="#">Home 3</a></li>
-                    </ul>
+                <li class="nav-item" is-active-route asp-controller="Home" asp-action="Index">
+                <a asp-controller="Home" asp-action="Index">
+                    <i class="glyphicon glyphicon-home"></i>
+                    Helpdesk Home
+                </a>
                 </li>
                 <li>
                     <a href="#">
@@ -140,6 +136,13 @@
                 });
             });
         </script>
+
+    <script>
+        $(".navbar-nav li a").click(function (event) {
+            if (!$(this).parent().hasClass('dropdown'))
+                $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 
         @RenderSection("Scripts", required: false)
 </body>
