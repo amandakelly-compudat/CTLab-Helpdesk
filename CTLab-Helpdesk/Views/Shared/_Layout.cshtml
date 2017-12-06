@@ -76,7 +76,7 @@
             </ul>
 
             <ul class="list-unstyled CTAs">
-                <li><a href="#" class="download">Download PDF Version</a></li>
+                <li><a href="#" class="article">Download PDF Version</a></li>
                 <li><a href="#" class="article" data-toggle="modal" data-target="#contactModal">Contact Form</a></li>
             </ul>
         </nav>
@@ -92,9 +92,9 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right" style="color:white">
-                            <li><a href="#">Help Home</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li is-active-route asp-controller="Home" asp-action="Index"><a asp-controller="Home" asp-action="Index">HelpDesk Home</a></li>
+                            <li is-active-route asp-controller="Home" asp-action="Contact"><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                             <!-- put search here in the future! -->
                         </ul>
                     </div>
